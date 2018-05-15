@@ -5,7 +5,6 @@ using System.ServiceModel.Dispatcher;
 using System.Text;
 using System.Threading.Tasks;
 using System.Messaging;
-using Shared;
 
 namespace MSMQTraining1
 {

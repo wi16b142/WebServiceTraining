@@ -45,7 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\WCFServiceReference1\Reference.cs">
+    <Compile Include="Connected Services\WCFSR\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -60,18 +60,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Connected Services\WCFServiceReference1\service.wsdl" />
-    <None Include="Connected Services\WCFServiceReference1\service.xsd">
+    <None Include="Connected Services\WCFSR\service.wsdl" />
+    <None Include="Connected Services\WCFSR\service.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\WCFServiceReference1\service1.xsd">
+    <None Include="Connected Services\WCFSR\service1.xsd">
       <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\WCFServiceReference1\WCFTraining1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\WCFServiceReference1\WebServiceTraining1Consumer.WCFServiceReference1.CompositeType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\WebServiceReferenceTraining1\WebService1.wsdl" />
   </ItemGroup>
@@ -79,7 +73,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\WCFServiceReference1\" />
+    <WCFMetadataStorage Include="Connected Services\WCFSR\" />
     <WCFMetadataStorage Include="Connected Services\WebServiceReferenceTraining1\" />
   </ItemGroup>
   <ItemGroup>
@@ -98,13 +92,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\WCFServiceReference1\configuration91.svcinfo" />
+    <None Include="Connected Services\WCFSR\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\WCFServiceReference1\configuration.svcinfo" />
+    <None Include="Connected Services\WCFSR\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\WCFServiceReference1\Reference.svcmap">
+    <None Include="Connected Services\WCFSR\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
